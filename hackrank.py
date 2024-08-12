@@ -1,0 +1,18 @@
+N=int(input())
+List=[]
+for i in range(N):
+    x=int(input())
+    y=int(input())
+    List.insert(x,y)
+print(List)
+z=int(input())
+List.remove(z)
+a=int(input())
+b=int(input())
+List.append(a)
+List.append(b)
+List.sort()
+print(List)
+List.pop()
+List.reverse()
+print(List)
